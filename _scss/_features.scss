@@ -1,0 +1,28 @@
+.features {
+    padding: 0 12px;
+    text-align: left;
+
+    &__item {
+        padding: 106px 128px 115px;
+
+        &:nth-child(odd) {
+            background: #efefef;
+        }
+
+        &:nth-child(even) {
+            background: inherit;
+        }
+    }
+
+    &__title {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-size: 14px;
+        color: rgba(#000,.3);
+    }
+}

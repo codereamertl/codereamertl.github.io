@@ -1,0 +1,17 @@
+[
+    {
+        "id": "advertising-marketing",
+        "title": "Providing advertising and marketing services on the Internet",
+        "description": "Display advertising, demand generation, marketing services, mobile solutions, digital marketing, social media marketing, messaging strategy, creative services, integrated media strategies"
+    },
+    {
+        "id": "traffic-related",
+        "title": "Internet traffic and related services",
+        "description": "Internet traffic buy, sell and resell, Internet traffic management, control and analysis"
+    },
+    {
+        "id": "development-maintenance",
+        "title": "Software development and maintenance",
+        "description": "Full cycle of custom software development and maintenance, web development and design, assessment and roadmap development, frontend development, UX and UI design, software development outsourcing, mobile application development, quality assurance, project management and QA management, software maintenance and support, team augmentation, big data"
+    }
+]

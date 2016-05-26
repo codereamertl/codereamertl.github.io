@@ -1,0 +1,17 @@
+.hero {
+    text-align: center;
+    height: 50%;
+    padding: 128px 12px 40px;
+
+    &__logo {
+        max-width: 198px;
+        display: inline-block;
+        margin-bottom: 104px;
+    }
+
+    &__title {
+        color: rgba(#000,.3);
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}

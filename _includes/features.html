@@ -1,0 +1,9 @@
+<div class="features">
+    {% assign features = site.data.features %}
+    {% for i in features %}
+        <div class="features__item">
+            <div class="features__title">{{ i.title }}</div>
+            <div class="features__description">{{ i.description }}</div>
+        </div>
+    {% endfor %}
+</div>
