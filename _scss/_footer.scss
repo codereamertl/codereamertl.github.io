@@ -1,0 +1,19 @@
+.footer {
+    background: #f5f5f5;
+    padding: 356px 12px 120px;
+
+    &__logo {
+        max-width: 76px;
+        display: block;
+        margin: 0 auto 80px;
+    }
+
+    &__copyright {
+        // font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    &__year {
+        font-size: 12px;
+    }
+}
