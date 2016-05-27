@@ -36,15 +36,16 @@
     &__text-wrap {
         float: left;
         width: 100%;
-        padding: 60px 55px 225px;
+        padding: 60px 55px;
         box-sizing: border-box;
+
+        @include media(M) {
+            padding-bottom: 225px;
+        }
     }
 
     &__info {
-        font-size: 18px;
-        // padding-bottom: 40px;
-        // border-bottom: 1px solid rgba(#fff,.2);
-        // margin-bottom: 40px;
+        font-size: 16px;
 
         a[href^="mailto"] {
             color: #000;
