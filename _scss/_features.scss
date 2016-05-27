@@ -1,17 +1,108 @@
+$f1: #fcfcfc;
+$f2: #fafafa;
+$f3: #f7f7f7;
+
 .features {
-    padding: 0 12px;
+    // padding: 0 12px;
     text-align: left;
+    @include clearfix;
+
 
     &__item {
-        padding: 106px 128px 115px;
+        padding: 170px 100px 70px 20px;
+        box-shadow: 0 22px 84px rgba(#000,.2);
+        margin-top: -125px;
+        position: relative;
+        @include clearfix;
+        // visibility: hidden;
+        min-height: 310px;
+        box-sizing: border-box;
+        float: right;
 
-        &:nth-child(odd) {
-            background: #efefef;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 100%;
+            border: 155px solid #000;
+            border-width: 155px 70px;
+            border-top-color: transparent !important;
+            border-left-color: transparent !important;
         }
 
-        &:nth-child(even) {
-            background: inherit;
+        &--advertising {
+            background: $f1;
+            margin-top: 0;
+            z-index: 20;
+            width: 50%;
+
+            &:before {
+                border-color: $f1;
+            }
         }
+
+        &--traffic {
+            background: $f2;
+            z-index: 19;
+            width: 65%;
+
+            &:before {
+                border-color: $f2;
+            }
+        }
+
+        &--development {
+            background: $f3;
+            z-index: 18;
+            width: 80%;
+
+            &:before {
+                border-color: $f3;
+            }
+        }
+    }
+
+    &__wrap {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px;
+        box-sizing: border-box;
+
+    //     &:before {
+    //         content: '';
+    //         position: absolute;
+    //         top: 0;
+    //         right: 100%;
+    //         border: 100% solid #000;
+    //         border-top-color: transparent !important;
+    //         border-left-color: transparent !important;
+    //     }
+
+    //     .features__item:nth-child(1) & {
+    //         width: 40%;
+
+    //         &:before {
+    //             border-color: $f1;
+    //         }
+    //     }
+
+    //     .features__item:nth-child(2) & {
+    //         width: 60%;
+
+    //         &:before {
+    //             border-color: $f2;
+    //         }
+    //     }
+
+    //     .features__item:nth-child(3) & {
+    //         width: 80%;
+
+    //         &:before {
+    //             border-color: $f3;
+    //         }
+    //     }
     }
 
     &__title {
@@ -24,5 +115,9 @@
     &__description {
         font-size: 14px;
         color: rgba(#000,.3);
+    }
+
+    .fadeInRight {
+        visibility: visible;
     }
 }
