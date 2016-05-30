@@ -25,22 +25,31 @@
 
     &__container {
         position: relative;
+        width: 80%;
         max-width: 910px;
         @include clearfix;
         text-align: left;
         margin: 0 auto;
         background: #fff;
         box-shadow: 0 22px 84px rgba(#000,.12);
-     }
+
+        @include media(M) {
+            width: 90%;
+        }
+    }
 
     &__text-wrap {
         float: left;
         width: 100%;
-        padding: 60px 55px;
+        padding: 40px 30px;
         box-sizing: border-box;
 
+        @include media(S) {
+            padding: 50px 45px;
+        }
+
         @include media(M) {
-            padding-bottom: 225px;
+            padding: 60px 55px 225px;
         }
     }
 
