@@ -14,5 +14,21 @@
 
     &__year {
         font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    &__powered {
+        font-size: 10px;
+
+        a {
+            display: inline-block;
+            color: #000;
+        }
+
+        svg {
+            height: 28px;
+            vertical-align: middle;
+            transform: translate3d(0,-9%,0);
+        }
     }
 }
