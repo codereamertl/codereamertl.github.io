@@ -8,7 +8,7 @@ $f3: #f7f7f7;
 
     &__item {
         position: relative;
-        box-shadow: 0 22px 84px rgba(#000,.12);
+        filter: drop-shadow(0 22px 34px rgba(#000,.12));
 
         @include media(M) {
             margin-top: -125px;
