@@ -1,0 +1,28 @@
+<div class="contents">
+    {% assign contents = site.data.contents %}
+    {% for content in contents %}
+        <div class="topic">
+            <div class="content-top-level">
+                <div class="content-top-level-title">
+                    <span>{{ content.title }}</span>
+                </div>
+                <div class="content-top-level-description">{{ content.description }}</div>
+
+                {% for item in content['sub-items'] %}
+                    <div class="sub-content">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.description }}</p>
+
+                        {% for subitem in item['sub-items'] %}
+                            <div class="sub-item">
+                                <h3{% if subitem.description != empty %} class="clickable"{% endif %}>{{ subitem.title }}
+                                {% if subitem.description != empty %}<div class="arrow-down"></div>{% endif %}</h3>
+                                <p>{{ subitem.description }}</p>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
