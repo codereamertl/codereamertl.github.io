@@ -3,7 +3,7 @@
 * 
 */
 function initMap() {
-    var myLatLng = {lat: 35.1711942, lng: 33.3812295},
+    var myLatLng = {lat: 35.163836, lng: 33.346976},
         draggable = isMobile.any() ? false : true;
 
     var styles = {

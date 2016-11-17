@@ -20,6 +20,11 @@ To use this project, you'll need the following things installed on your machine:
 3. And then run gulp `gulp`
 4. Have Fun :)
 
+### Production Installation
+
+1. Copy generated *_site* folder in public directory on production server
+2. Copt *contact.php* file in /contact/index.php
+
 ### Run
 
 `npm i`

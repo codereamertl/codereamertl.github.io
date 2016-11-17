@@ -7,16 +7,34 @@
 
             <div class="contacts__text-wrap">
                 <div class="contacts__info">
-                    Ionos, 20,
-                    <br>
-                    Egkomi, 2406,
-                    <br>
-                    Nicosia,
-                    <br>
-                    Cyprus
-                    <br>
-                    <br>
+                    Ionos, 20, Egkomi, 2406, Nicosia, Cyprus<br>
                     <a href="mailto:info@codereamertl.com?subject=Hello">info@codereamertl.com</a>
+                    <form action="/contact/" method="post">
+                        <ul class="form-style-1">
+                            <li>
+                                <p>Request for Info</p>
+                                <input type="text" placeholder="First Name" name="fn" required class="field-divided">
+                                <input type="text" placeholder="Last Name" name="ln" required class="field-divided">
+                            </li>
+                            <li>
+                                <input type="email" placeholder="Email" name="email" required class="field-divided">
+                                <input type="text" placeholder="Company" name="company" required class="field-divided">
+                            </li>
+                            <li>
+                                <input type="tel" placeholder="Phone Number" name="phone" required class="field-long">
+                            </li>
+                            <li>
+                                <textarea name="message" required placeholder="Messsage"></textarea>
+                            </li>
+                            <li>
+                                <div class="g-recaptcha" data-sitekey="6LeTEwwUAAAAAHZMBwrgTJpSUgkafTlQ39379VjZ" style="float: left;"></div>
+                                <button type="submit" name="submit" class="submit" style="float: right;">Send</button>
+                                <div class="contact-status"></div>
+                            </li>
+                        </ul>
+
+
+                    </form>
                 </div>
             </div>
 
