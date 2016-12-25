@@ -5,13 +5,13 @@ gulp.task('watch', ['browser-sync'], function () {
         '_scss/**/*'
     ], ['sass']);
     gulp.watch([
-        '_layouts/**/*',
+        '_layouts/*',
         '_includes/**/*',
-        '_data/**/*',
+        '_pages/*',
+        '_data/*',
         '_js/**/*',
-        '_pages/**/*',
         'assets/img/**/*',
-        'assets/fonts/**/*',
+        'assets/fonts/*',
         '_config.yml',
         '_config_dev.yml'
     ], ['jekyll-rebuild']);

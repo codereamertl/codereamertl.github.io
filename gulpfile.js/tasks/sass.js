@@ -2,7 +2,6 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     gutil = require('gulp-util'),
     sass = require('gulp-sass'),
-    sassUnicode = require('gulp-sass-unicode'),
     prefix = require('gulp-autoprefixer'),
     browserSync = require('browser-sync');
 
@@ -18,7 +17,6 @@ gulp.task('sass', function () {
             outputStyle: 'compressed',
             onError: browserSync.notify
         }))
-        .pipe(sassUnicode())
         .pipe(prefix(['last 2 version', '> 0%', 'ie > 7', 'safari 5', 'ios 6', 'android 4'], {cascade: true}))
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream: true}))
