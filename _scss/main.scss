@@ -1,8 +1,16 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 
-@import '-vars';
+@import '-variables';
 
-@import '../node_modules/coriolan-ui/coriolan-ui';
+@import '../node_modules/normalize.css/normalize';
+@import '../node_modules/coriolan-ui/tools/variables';
+@import '../node_modules/coriolan-ui/mixins/clearfix';
+@import '../node_modules/coriolan-ui/mixins/ellipsis';
+@import '../node_modules/coriolan-ui/mixins/placeholder';
+@import '../node_modules/coriolan-ui/mixins/ratio';
+@import '../node_modules/coriolan-ui/mixins/media';
+@import '../node_modules/coriolan-ui/mixins/px-to-em';
+@import '../node_modules/coriolan-ui/mixins/px-to-rem';
 
 @import 'base';
 @import 'hero';
