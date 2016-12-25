@@ -1,16 +1,9 @@
-// Variables
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
 @import '-vars';
 
-// Vendor
 @import '../node_modules/coriolan-ui/coriolan-ui';
-@import 'vendor/icomoon';
-@import 'vendor/animate';
 
-// UI
-@import 'ui/ui-buttons';
-@import 'ui/ui-fields';
-
-// UX
 @import 'base';
 @import 'hero';
 @import 'features';
