@@ -2,10 +2,9 @@
 layout: home
 permalink: /
 lang: en
-name: home
 
 title: 'Codereamer Trade Limited'
 description: 'Codereamer Trade Limited'
 
-og-image: 'http://rooooster.com/content/codereamertl/home.jpg'
+og-image: 'http://rooooster.com/codereamer/assets/img/og-images/home.jpg'
 ---
