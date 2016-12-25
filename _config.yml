@@ -1,4 +1,4 @@
 baseurl: '/codereamer'
 include: ['_pages']
 exclude: ['README.md', 'package.json', 'node_modules', 'gulpfile.js', 'CNAME']
-googleApiKey: ''
+googleApiKey: 'AIzaSyDl69CuQqxwE6PbbaCkyvIKX85czg_pAf8'
