@@ -1,31 +1,21 @@
-# Codereamer Trade Limited
+# codereamer
 
-Web development of Codereamer Trade Limited site
+_Web development of Codereamer Trade Limited site_
 
-- [codereamertl.com](http://codereamertl.com)
-- [codereamertl.github.io](http://codereamertl.github.io)
+### Used
 
-### System Preparation
+[Jekyll](https://jekyllrb.com) - static site generator based on [Ruby](https://www.ruby-lang.org)
 
-To use this project, you'll need the following things installed on your machine:
+[Gulp](http://gulpjs.com) - build system based on [NodeJS](https://nodejs.org)
 
-1. [NodeJS](http://nodejs.org)
-2. [GulpJS](https://github.com/gulpjs/gulp)
-3. [Jekyll](http://jekyllrb.com)
+[Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
 
-### Local Installation
-
-1. Clone this repo
-2. Inside the directory install packages: `npm i`
-3. And then run gulp `gulp`
-4. Have Fun :)
+[GitHub Pages](https://pages.github.com) - free hosting
 
 ### Run
 
 `npm i`
 
-`npm start` or `gulp`
+`gulp watch`
 
-### Open Source
-
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+#### Have fun! :)
